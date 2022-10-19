@@ -6,3 +6,5 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic
+
+rm -rf ./vimrc
