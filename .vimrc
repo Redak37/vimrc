@@ -197,15 +197,15 @@ imap <F4> <Esc>:u<CR><Ins><Right>
 "let g:solarized_termcolors=256
 "colorscheme solarized
 if has('gui_running')
-        set background=dark
-        colorscheme solarized
-        set mouse=a
-        set ttymouse=xterm
-    else
-        " set background=dark
-        set mouse=n
-        set ttymouse=xterm2
-    endif
+    set background=dark
+    colorscheme solarized
+    set mouse=a
+    set ttymouse=xterm
+else
+    " set background=dark
+    set mouse=n
+    set ttymouse=xterm2
+endif
 
 " ---------------------------------------- Omni completion -------------------------------
 "set omnifunc=syntaxcomplete#Complete
