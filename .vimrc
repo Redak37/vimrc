@@ -168,6 +168,7 @@ execute pathogen#infect()
 autocmd Filetype c setlocal makeprg=gcc\ -std=c99\ -Wextra\ -Wall\ -pedantic\ -O2\ -o\ %<\ %
 autocmd Filetype cpp setlocal makeprg=mpic++\ -o\ %<\ %
 autocmd Filetype cc setlocal makeprg=mpic++\ -o\ %<\ %
+autocmd Filetype cu setlocal makeprg=nvcc\ -O3\ -g\ -G\ -o\ %<\ %
 " set makeprg=mpic++\ -o\ %<\ %
 
 " NerdTree
